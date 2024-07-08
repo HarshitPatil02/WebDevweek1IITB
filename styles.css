@@ -1,0 +1,88 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header */
+header {
+    background-color: #333;
+    color: rgb(247, 240, 240);
+    padding: 10px 0;
+}
+
+/* Styles for the navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Inline display for navigation items */
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Styles for navigation links */
+nav ul li a {
+    color: hsl(245, 65%, 46%);
+    text-decoration: none;
+}
+
+/* Center alignment for headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Padding and margin for sections */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Background color for Game Overview section */
+#overview {
+    background-color: #f0f8ff; /* Light blue */
+}
+
+/* Background color for Game Highlights section */
+#highlights {
+    background-color: #faebd7; /* Antique white */
+}
+
+/* Background color for How to Get Started section */
+#getting-started {
+    background-color: #f5f5dc; /* Beige */
+}
+
+/* Background color for Interactive Element section */
+#interactive {
+    background-color: #fffacd; /* Lemon chiffon */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333;
+    color: rgb(178, 45, 45);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+}
